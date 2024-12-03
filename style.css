@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: rgb(218, 192, 242);
+}
+ .head{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+ }
+  .logo{
+    align-items: center;
+    align-content: center;
+padding-left: 10vh;
+  }
+  .direction{
+    display: flex;
+    align-items: center;
+    align-content: center;
+  }
+  ul{ 
+    padding-right:100px;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+  }
+  li{
+ display: flex;
+ padding: 0px 25px;
+  }
+  a{
+    text-decoration: none;
+  }
+  .options{
+    padding-right: 0vh;
+  }
+  .opt h2{
+    padding-right: 10vh;
+  }

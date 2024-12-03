@@ -1,0 +1,151 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    color:rgb(0, 42, 195);
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    font-size: 40px;
+    animation-name: up;
+    animation-duration: 10s;
+}
+.container{
+    margin-top: 30px;
+    margin-left: 500px;
+    align-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+fieldset{
+    border: 3px solid rgb(73, 133, 244);
+    font-size: 16px;
+    height: 450px;
+    width:500px;
+    border-radius: 15px;
+}
+legend{
+    color: rgb(56, 16, 175);
+    font-size: 22px;
+}
+#one,#two,#three,#fourth,#fifth{
+    display: flex;
+    justify-content: space-between;
+}
+.fname,.uname,.email,.gender,.password{
+    margin-left:30px;
+ margin-top: 10px;
+}
+.fname input{
+    border: 1px solid blue;
+    border-radius: 3px;
+    height:20px;
+    width: 200px;
+    text-align:center ;
+
+}
+.lname,.phone,.DOB,.confirm{
+    margin-right:30px;
+    margin-top: 10px;
+    
+}
+.lname input{
+    border:1px solid blue ;
+    border-radius: 3px;
+    height:20px;
+    width: 200px;
+    text-align:center ;
+}
+
+.uname input{
+    border:1px solid blue ;
+    border-radius: 3px;
+    height:20px;
+    width: 200px;
+    text-align:center;
+  
+}
+.phone input{
+    border:1px solid blue ;
+    border-radius: 3px;
+    height:20px;
+    width: 200px;
+    text-align:center;
+}
+.email input{
+    border:1px solid blue ;
+    border-radius: 3px;
+    height:20px;
+    width: 200px;
+    text-align:center;  
+}
+.DOB input{
+    border:1px solid blue ;
+    border-radius: 3px;
+    height:22px;
+    width: 200px;
+    text-align:center;  
+}
+.gender select{
+    border:1px solid blue ;
+    border-radius: 3px;
+    height:24px;
+    width: 200px;
+    text-align:center;  
+}
+.pin{
+    margin-top:10px;
+    margin-left:35px;
+}
+.pin input{
+    border:1px solid blue ;
+    border-radius: 3px;
+    height:20px;
+    width: 200px;
+    text-align:center;   
+}
+.password input{
+    border:1px solid blue ;
+    border-radius: 3px;
+    height:20px;
+    width: 200px;
+    text-align:center;   
+}
+.confirm input{
+    border:1px solid blue ;
+    border-radius: 3px;
+    height:20px;
+    width: 200px;
+    text-align:center;  
+}
+#six{
+    margin-top: 30px;
+    margin-left:160px;
+}
+.six{
+    color: rgb(39, 39, 255);
+}
+.seven input{
+    border:2px solid blue;
+    border-radius: 12px;
+    height: 25px;
+    width: 150px;
+    font-size:15px;
+    color: rgb(14, 14, 15);
+    background-color: rgb(137, 137, 254);
+    margin-left: 180px;
+}
+.seven p{
+    color: rgb(135, 135, 247);
+    margin-left:100px ;
+}
+.seven a{
+    color: blue;
+}
+label{
+    padding-left: 70px;
+    color: rgb(234, 9, 9);
+  }
+
+
