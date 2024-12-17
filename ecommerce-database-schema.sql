@@ -11,7 +11,6 @@ CREATE TABLE user (
     password VARCHAR(255) NOT NULL, -- Recommend using longer, hashed password
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
 -- Address Table
 CREATE TABLE address (
     add_id INT PRIMARY KEY AUTO_INCREMENT,
