@@ -47,6 +47,10 @@ CREATE TABLE sub_category (
     FOREIGN KEY (category_id) REFERENCES category(category_id)
 );
 
+
+
+
+
 -- Product Table
 CREATE TABLE product (
     pid INT PRIMARY KEY AUTO_INCREMENT,
